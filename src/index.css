@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,21 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+.card {
+  max-width: 200px;
+  border: 1px solid #333333;
+  box-shadow: 5px 5px 5px #cdc4c4;
+  display: inline-block;
+  margin: 5px;
+}
+
+.card-img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.card-name {
+  font-size: 18px;
 }
