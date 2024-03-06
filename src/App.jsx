@@ -1,10 +1,10 @@
 import "./App.css";
-import Count from "./Count.jsx";
+import OnChangeComponent from "./OnChangeComponent.jsx";
 
 function App() {
   return (
     <>
-      <Count />
+      <OnChangeComponent />
     </>
   );
 }
