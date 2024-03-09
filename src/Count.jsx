@@ -8,7 +8,13 @@ function Count() {
   };
 
   const plusButton = () => {
-    setCount(count + 1);
+    // SET COUNT FOR THE
+    //setCount(count + 1);
+
+    // UPDATER FUNCTION
+    // set count which is the previous count not take all the current count
+    setCount((count) => count + 1);
+    setCount((count) => count + 1);
   };
 
   const resetButton = () => {

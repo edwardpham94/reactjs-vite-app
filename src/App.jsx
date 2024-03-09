@@ -1,10 +1,10 @@
 import "./App.css";
-import OnChangeComponent from "./OnChangeComponent.jsx";
+import UpdateObject from "./UpdateObject.jsx";
 
 function App() {
   return (
     <>
-      <OnChangeComponent />
+      <UpdateObject />
     </>
   );
 }
