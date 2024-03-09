@@ -1,10 +1,10 @@
 import "./App.css";
-import UpdateArray from "./UpdateArray";
+import UpdateObjectArr from "./UpdateObjectArr.jsx";
 
 function App() {
   return (
     <>
-      <UpdateArray />
+      <UpdateObjectArr />
     </>
   );
 }
